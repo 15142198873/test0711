@@ -1,0 +1,243 @@
+.pc-header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background: #324d59;
+}
+.pc-logo {
+  position: absolute;
+  top: 10px;
+  left: 31px;
+}
+.list-title li {
+  cursor: pointer;
+  display: inline;
+  margin-left: 50px;
+  color: white;
+}
+.list-title li:hover {
+  color: #02bbd3;
+}
+ul {
+  list-style-type: none;
+}
+.list-title {
+  margin-left: 117px;
+  margin-top: 25px;
+}
+.parting-line {
+  margin-left: 64px;
+  margin-top: 20px;
+}
+.list-title-right {
+  color: white;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.list-title-right li {
+  cursor: pointer;
+  display: inline;
+  margin-right: 30px;
+}
+.list-title-right li:hover {
+  color: #02bbd3;
+}
+.create-button {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  right: 260px;
+}
+.create-button button {
+  cursor: pointer;
+  width: 130px;
+  height: 34px;
+  margin-top: 18px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background: #324d59;
+  color: white;
+}
+.parting-line-button {
+  position: absolute;
+  right: 190px;
+  margin-top: 18px;
+}
+.profile-photo {
+  position: absolute;
+  right: 130px;
+  top: 23px;
+}
+.name {
+  position: absolute;
+  margin-top: 10px;
+  color: white;
+  right: 50px;
+  top: 16px;
+}
+.choose-img {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+.outside {
+  display: flex;
+  justify-items: center;
+}
+.header-title {
+  width: 976px;
+  height: 135px;
+  display: flex;
+  margin-left: 420px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.header-title img {
+  display: flex;
+  justify-items: center;
+  width: 1200px;
+  height: 200px;
+  margin-top: -15px;
+}
+.content {
+  width: 232px;
+  height: 520px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  margin-left: 28px;
+}
+.main-content {
+  margin: auto;
+}
+.main-content-outside {
+  width: 1035px;
+  height: 500px;
+  display: flex;
+  margin-top: 71px;
+  margin-left: 398px;
+}
+//component
+.content-header {
+  width: 100%;
+  height: 105px;
+  border-bottom: 2px solid rgb(245, 237, 237);
+}
+.content-header-change {
+  background-color: #6fcf97;
+  margin-top: 1px;
+  height: 99px;
+  padding-top: 15px;
+  border-radius: 6px 6px 0px 0px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(245, 237, 237);
+}
+.content-header-text {
+  text-align: center;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+.money {
+  margin-top: 40px;
+  margin-left: 70px;
+  font-size: 24px;
+  margin-right: 3px;
+}
+.month {
+  font-size: 12px;
+  color: #828282;
+}
+.content-center {
+  width: 100%;
+  height: 79px;
+  border-bottom: 2px solid rgb(245, 237, 237);
+  padding-top: 14px;
+}
+.content-center-title {
+  font-size: 12px;
+  color: #828282;
+  margin-right: 90px;
+  margin-bottom: 19px;
+  margin-left: 24px;
+}
+.content-centers {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.content-center-title-outside {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.content-bottom ul li {
+  margin-left: -29px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #828282;
+  padding-left: 2rem;
+  background-image: url("../image/Group.png");
+  background-repeat: no-repeat;
+}
+.content-bottom-change ul li {
+  margin-left: -29px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #828282;
+  padding-left: 2rem;
+  background-image: url("../image/rightLogo.png");
+  background-repeat: no-repeat;
+}
+.content-bottom-button {
+  cursor: pointer;
+  width: 178px;
+  height: 39px;
+  background-color: #02bbd3;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 39px;
+  margin-left: 27px;
+  color: white;
+  font-size: 14px;
+}
+.content-bottom-button-change {
+  cursor: pointer;
+  width: 178px;
+  height: 39px;
+  background-color: #aff1d8;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 39px;
+  margin-left: 27px;
+  color: rgb(39, 182, 82);
+  font-size: 14px;
+}
+.fotter {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: #324d59;
+  bottom: 0px;
+}
+.fotter ul li {
+  display: inline;
+  margin-left: 50px;
+  color: white;
+  font-size: 13px;
+}
+.fotter-first {
+  position: absolute;
+  font-size: 13px;
+  color: #828282;
+  right: 100px;
+  top: 25px;
+}
+.fotter-year {
+  position: absolute;
+  font-size: 13px;
+  color: #828282;
+  right: 57px;
+  top: 25px;
+}
